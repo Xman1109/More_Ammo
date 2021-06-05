@@ -1,0 +1,2 @@
+table.insert( data.raw["technology"]["uranium-ammo"].effects, { type = "unlock-recipe", recipe = "uranium-shotgun-recipe" } )
+--table.insert( data.raw["technology"]["military"].effects, { type = "unlock-recipe", recipe = "empty-shotgun-recipe" } )

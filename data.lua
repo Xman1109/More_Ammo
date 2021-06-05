@@ -1,0 +1,32 @@
+-- require("")
+
+--vanilla changes
+require("prototypes/vanilla-changes/ammo-recipes")
+require("prototypes/vanilla-changes/technology")
+
+
+--technologys
+require("prototypes/technology/advanced-ammo")
+require("prototypes/technology/chemical-ammo")
+
+--recipes
+require("prototypes/recipes/tungsten-recipe")
+require("prototypes/recipes/fmj-recipe")
+require("prototypes/recipes/sp-recipe")
+require("prototypes/recipes/fire-recipe")
+require("prototypes/recipes/acid-recipe")
+require("prototypes/recipes/he-recipe")
+require("prototypes/recipes/empty-recipe")
+require("prototypes/recipes/empty-shotgun-recipe")
+require("prototypes/recipes/uranium-shotgun-recipe")
+
+--Ammo
+require("prototypes/items/tungsten-rounds-magazine")
+require("prototypes/items/fmj-rounds-magazine")
+require("prototypes/items/sp-rounds-magazine")
+require("prototypes/items/fire-rounds-magazine")
+require("prototypes/items/acid-rounds-magazine")
+require("prototypes/items/he-rounds-magazine")
+require("prototypes/items/empty-magazine")
+require("prototypes/items/empty-shotgun-shell")
+require("prototypes/items/uranium-shotgun-shell")
