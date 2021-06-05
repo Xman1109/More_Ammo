@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.5
+Date: 2021-06-05
+  Changes:
+    - fixed the issue where the Empty Shotgun Shells wouldnt appear on an already existing world
+---------------------------------------------------------------------------------------------------
 Version: 1.5.4
 Date: 2021-5-26
   Changes:
