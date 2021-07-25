@@ -1,0 +1,23 @@
+data:extend(
+  {
+    {
+      type = "recipe",
+      name = "advanced-recipe",
+      icon = "__More_Ammo__/graphics/icons/items/advanced-magazine.png",
+      icon_size = 63,
+      enabled = true,
+      category = "crafting",
+      group = "intermediate-products",
+      subgroup = "intermediate-product",
+      order = "b",
+      ingredients =
+      {
+        {"iron-plate", 5},
+        {"steel-plate", 3},
+        {"plastic-bar", 5},
+      },
+      energy_required = 5,
+      result = "advanced-magazine"
+    } 
+  }
+)
