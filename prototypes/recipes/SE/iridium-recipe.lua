@@ -9,7 +9,7 @@ data:extend(
         category = "crafting",
         group = "combat",
         subgroup = "ammo",
-        order = "af",
+        order = "ag",
         ingredients =
       {
          {"advanced-magazine", 1},
