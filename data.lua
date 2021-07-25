@@ -22,6 +22,7 @@ require("prototypes/recipes/uranium-shotgun-recipe")
 
 require("prototypes/recipes/SE/advanced-recipe")
 require("prototypes/recipes/SE/water-recipe")
+require("prototypes/recipes/SE/iridium-recipe")
 
 
 
@@ -38,3 +39,4 @@ require("prototypes/items/uranium-shotgun-shell")
 
 require("prototypes/items/SE/advanced-magazine")
 require("prototypes/items/SE/water-magazine")
+require("prototypes/items/SE/iridium-rounds-magazine")
