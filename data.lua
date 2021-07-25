@@ -20,8 +20,8 @@ require("prototypes/recipes/empty-recipe")
 require("prototypes/recipes/empty-shotgun-recipe")
 require("prototypes/recipes/uranium-shotgun-recipe")
 
-require("prototypes/recipes/advanced-recipe")
-require("prototypes/recipes/water-recipe")
+require("prototypes/recipes/SE/advanced-recipe")
+require("prototypes/recipes/SE/water-recipe")
 
 
 
@@ -36,5 +36,5 @@ require("prototypes/items/empty-magazine")
 require("prototypes/items/empty-shotgun-shell")
 require("prototypes/items/uranium-shotgun-shell")
 
-require("prototypes/items/advanced-magazine")
-require("prototypes/items/water-magazine")
+require("prototypes/items/SE/advanced-magazine")
+require("prototypes/items/SE/water-magazine")
