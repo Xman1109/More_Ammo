@@ -2,8 +2,8 @@ data:extend(
     {
         {
         type = "recipe",
-        name = "iridium-ammo-recipe",
-        icon = "__More_Ammo__/graphics/icons/items/iridium-rounds-magazine.png",
+        name = "vulcanite-ammo-recipe",
+        icon = "__More_Ammo__/graphics/icons/items/vulcanite-rounds-magazine.png",
         icon_size = 63,
         enabled = false,
         category = "crafting",
@@ -18,6 +18,6 @@ data:extend(
          {"copper-plate", 2},
       },
         energy_required = 40,
-        result = "iridium-rounds-magazine"
+        result = "vulcanite-rounds-magazine"
         } 
 })
