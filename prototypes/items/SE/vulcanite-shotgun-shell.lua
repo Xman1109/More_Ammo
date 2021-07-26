@@ -17,6 +17,26 @@ data:extend(
                   target_effects =
                   {
                     {
+                      {
+                        type = "create-entity",
+                        entity_name = "fire-flame-on-tree"
+                      },
+                      {
+                        type = "create-entity",
+                        entity_name = "fire-flame-on-tree"
+                      },
+                      {
+                        type = "create-entity",
+                        entity_name = "fire-flame-on-tree"
+                      },
+                      {
+                        type = "create-entity",
+                        entity_name = "fire-flame-on-tree"
+                      },
+                      {
+                        type = "create-entity",
+                        entity_name = "fire-flame-on-tree"
+                      },
                       type = "damage",
                       damage = { amount = 18, type = "physical"}
                     }

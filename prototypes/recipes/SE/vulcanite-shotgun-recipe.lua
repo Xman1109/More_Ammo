@@ -13,7 +13,7 @@ data:extend(
         ingredients =
       {
          {"advanced-shotgun-shell", 1},
-         {"se-vulcanite", 3}
+         {"se-vulcanite-ion-exchange-beads", 5}
       },
         energy_required = 30,
         result = "vulcanite-shotgun-shell"
