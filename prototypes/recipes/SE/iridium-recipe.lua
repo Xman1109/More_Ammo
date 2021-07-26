@@ -3,7 +3,7 @@ data:extend(
         {
         type = "recipe",
         name = "iridium-ammo-recipe",
-        icon = "__More_Ammo__/graphics/icons/items/iridium-rounds-magazine.png",
+        icon = "__More_Ammo__/graphics/icons/items/SE/iridium-rounds-magazine.png",
         icon_size = 63,
         enabled = false,
         category = "crafting",

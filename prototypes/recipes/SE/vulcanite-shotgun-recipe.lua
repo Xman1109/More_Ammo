@@ -3,7 +3,7 @@ data:extend(
         {
         type = "recipe",
         name = "vulcanite-shotgun-recipe",
-        icon = "__More_Ammo__/graphics/icons/items/vulcanite-shotgun-shell.png",
+        icon = "__More_Ammo__/graphics/icons/items/SE/vulcanite-shotgun-shell.png",
         icon_size = 63,
         enabled = false,
         category = "crafting",

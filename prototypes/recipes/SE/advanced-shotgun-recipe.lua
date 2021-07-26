@@ -3,7 +3,7 @@ data:extend(
         {
         type = "recipe",
         name = "advanced-shotgun-recipe",
-        icon = "__More_Ammo__/graphics/icons/items/advanced-shotgun-shell.png",
+        icon = "__More_Ammo__/graphics/icons/items/SE/advanced-shotgun-shell.png",
         icon_size = 63,
         enabled = true,
         category = "crafting",

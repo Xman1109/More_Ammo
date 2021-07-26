@@ -3,7 +3,7 @@ data:extend(
     {
     type = "ammo",
     name = "beryllium-rounds-magazine",
-    icon = "__More_Ammo__/graphics/icons/items/beryllium-rounds-magazine.png",
+    icon = "__More_Ammo__/graphics/icons/items/SE/beryllium-rounds-magazine.png",
     icon_size = 63,
     ammo_type =
     {

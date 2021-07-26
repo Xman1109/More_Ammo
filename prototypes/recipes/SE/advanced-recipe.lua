@@ -3,7 +3,7 @@ data:extend(
     {
       type = "recipe",
       name = "advanced-recipe",
-      icon = "__More_Ammo__/graphics/icons/items/advanced-magazine.png",
+      icon = "__More_Ammo__/graphics/icons/items/SE/advanced-magazine.png",
       icon_size = 63,
       enabled = true,
       category = "crafting",

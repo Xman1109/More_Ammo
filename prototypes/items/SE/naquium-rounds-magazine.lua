@@ -3,7 +3,7 @@ data:extend(
     {
     type = "ammo",
     name = "naquium-rounds-magazine",
-    icon = "__More_Ammo__/graphics/icons/items/naquium-rounds-magazine.png",
+    icon = "__More_Ammo__/graphics/icons/items/SE/naquium-rounds-magazine.png",
     icon_size = 63,
     ammo_type =
     {

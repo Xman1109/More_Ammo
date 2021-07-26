@@ -3,7 +3,7 @@ data:extend(
         {
         type = "recipe",
         name = "beryllium-ammo-recipe",
-        icon = "__More_Ammo__/graphics/icons/items/beryllium-rounds-magazine.png",
+        icon = "__More_Ammo__/graphics/icons/items/SE/beryllium-rounds-magazine.png",
         icon_size = 63,
         enabled = false,
         category = "crafting",
