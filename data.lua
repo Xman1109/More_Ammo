@@ -45,6 +45,7 @@ require("prototypes/items/SE/iridium-rounds-magazine")
 require("prototypes/items/SE/vulcanite-rounds-magazine")
 require("prototypes/items/SE/naquium-rounds-magazine")
 require("prototypes/items/SE/beryllium-rounds-magazine")
+require("prototypes/items/SE/cryonite-rounds-magazine")
 require("prototypes/items/SE/vulcanite-shotgun-shell")
 
 
@@ -56,6 +57,7 @@ require("prototypes/recipes/SE/iridium-recipe")
 require("prototypes/recipes/SE/vulcanite-recipe")
 require("prototypes/recipes/SE/naquium-recipe")
 require("prototypes/recipes/SE/beryllium-recipe")
+require("prototypes/recipes/SE/cryonite-recipe")
 require("prototypes/recipes/SE/vulcanite-shotgun-recipe")
 
 end
