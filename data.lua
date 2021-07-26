@@ -9,6 +9,7 @@ require("prototypes/vanilla-changes/technology")
 require("prototypes/technology/advanced-ammo")
 require("prototypes/technology/chemical-ammo")
 
+
 --recipes
 require("prototypes/recipes/tungsten-recipe")
 require("prototypes/recipes/fmj-recipe")
@@ -20,16 +21,8 @@ require("prototypes/recipes/empty-recipe")
 require("prototypes/recipes/empty-shotgun-recipe")
 require("prototypes/recipes/uranium-shotgun-recipe")
 
---SE
-require("prototypes/recipes/SE/advanced-recipe")
-require("prototypes/recipes/SE/water-recipe")
-require("prototypes/recipes/SE/iridium-recipe")
-require("prototypes/recipes/SE/vulcanite-recipe")
-require("prototypes/recipes/SE/naquium-recipe")
 
-
-
---Ammo
+--Items
 require("prototypes/items/tungsten-rounds-magazine")
 require("prototypes/items/fmj-rounds-magazine")
 require("prototypes/items/sp-rounds-magazine")
@@ -40,9 +33,21 @@ require("prototypes/items/empty-magazine")
 require("prototypes/items/empty-shotgun-shell")
 require("prototypes/items/uranium-shotgun-shell")
 
---SE
+if mods["space-exploration"] then
+
+--Items
 require("prototypes/items/SE/advanced-magazine")
 require("prototypes/items/SE/water-magazine")
 require("prototypes/items/SE/iridium-rounds-magazine")
 require("prototypes/items/SE/vulcanite-rounds-magazine")
 require("prototypes/items/SE/naquium-rounds-magazine")
+
+
+--recipes
+require("prototypes/recipes/SE/advanced-recipe")
+require("prototypes/recipes/SE/water-recipe")
+require("prototypes/recipes/SE/iridium-recipe")
+require("prototypes/recipes/SE/vulcanite-recipe")
+require("prototypes/recipes/SE/naquium-recipe")
+
+end
