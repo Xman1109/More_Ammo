@@ -6,5 +6,5 @@
   "author": "X_Man1109",
   "contact": "X_Man1109#6160",
   "factorio_version": "1.1",
-  "dependencies": ["base", "? bullet-trails"]
+  "dependencies": ["base", "? bullet-trails", "? space-exploration"]
 }
