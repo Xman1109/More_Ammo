@@ -39,6 +39,7 @@ if mods["space-exploration"] then
 
 --Items
 require("prototypes/items/SE/advanced-magazine")
+require("prototypes/items/SE/advanced-shotgun-shell")
 require("prototypes/items/SE/water-magazine")
 require("prototypes/items/SE/iridium-rounds-magazine")
 require("prototypes/items/SE/vulcanite-rounds-magazine")
@@ -49,6 +50,7 @@ require("prototypes/items/SE/vulcanite-shotgun-shell")
 
 --recipes
 require("prototypes/recipes/SE/advanced-recipe")
+require("prototypes/recipes/SE/advanced-shotgun-recipe")
 require("prototypes/recipes/SE/water-recipe")
 require("prototypes/recipes/SE/iridium-recipe")
 require("prototypes/recipes/SE/vulcanite-recipe")

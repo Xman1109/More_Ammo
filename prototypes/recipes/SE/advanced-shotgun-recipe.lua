@@ -13,7 +13,7 @@ data:extend(
         ingredients =
       {
          {"copper-plate", 2},
-         {"plastic bar", 5},
+         {"plastic-bar", 5},
          {"steel-plate", 3}
       },
         energy_required = 5,

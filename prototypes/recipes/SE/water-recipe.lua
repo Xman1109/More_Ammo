@@ -5,16 +5,15 @@ data:extend(
         name = "water-recipe",
         icon = "__More_Ammo__/graphics/icons/items/SE/water-magazine.png",
         icon_size = 63,
-        enabled = false,
+        enabled = true,
         category = "crafting",
         group = "combat",
         subgroup = "ammo",
-        order = "af",
+        order = "aj",
         ingredients =
       {
-         {"empty-magazine", 1},
-         {"iron-plate", 5},
-         {"steel-plate", 4},
+         {"advanced-magazine", 1},
+         {"se-water-ice", 5}
       },
         energy_required = 40,
         result = "water-magazine"

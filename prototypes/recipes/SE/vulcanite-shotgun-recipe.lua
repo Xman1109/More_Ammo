@@ -13,7 +13,7 @@ data:extend(
         ingredients =
       {
          {"advanced-shotgun-shell", 1},
-         {"vulcanite", 3}
+         {"se-vulcanite", 3}
       },
         energy_required = 30,
         result = "vulcanite-shotgun-shell"
