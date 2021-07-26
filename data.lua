@@ -41,6 +41,7 @@ require("prototypes/items/SE/water-magazine")
 require("prototypes/items/SE/iridium-rounds-magazine")
 require("prototypes/items/SE/vulcanite-rounds-magazine")
 require("prototypes/items/SE/naquium-rounds-magazine")
+require("prototypes/items/SE/beryllium-rounds-magazine")
 
 
 --recipes
@@ -49,5 +50,6 @@ require("prototypes/recipes/SE/water-recipe")
 require("prototypes/recipes/SE/iridium-recipe")
 require("prototypes/recipes/SE/vulcanite-recipe")
 require("prototypes/recipes/SE/naquium-recipe")
+require("prototypes/recipes/SE/beryllium-recipe")
 
 end
