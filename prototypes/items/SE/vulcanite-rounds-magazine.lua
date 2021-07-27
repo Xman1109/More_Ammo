@@ -17,6 +17,10 @@ data:extend(
           target_effects =
           {
             {
+              type = "create-fire",
+              entity_name = "fire-flame-on-tree"
+            },
+            {
               type = "damage",
               damage = { amount = 19, type = "physical"}
             }

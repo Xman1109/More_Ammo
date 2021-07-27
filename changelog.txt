@@ -10,8 +10,6 @@ Date: 2021-
     - Beryllium Ammo (Has no function. ¯\_(ツ)_/¯ )
     - Vulcanite Ammo (just better Fire Ammo)
     - Naquium Ammo (Lightning on Impact)
-    - Advanced Shotgun Shell (base crafting ingredient for the New Shotgun Shells)
-    - Vulcanite Shotgun Shell / Dragonsbreath (just google Dragonsbreath)
   Info:
     - Icons by alisadraw_things on Instagram
     - thanks to my Friend for doing the Localisation

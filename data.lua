@@ -39,25 +39,24 @@ if mods["space-exploration"] then
 
 --Items
 require("prototypes/items/SE/advanced-magazine")
-require("prototypes/items/SE/advanced-shotgun-shell")
+--require("prototypes/items/SE/advanced-shotgun-shell")
 require("prototypes/items/SE/water-magazine")
 require("prototypes/items/SE/iridium-rounds-magazine")
 require("prototypes/items/SE/vulcanite-rounds-magazine")
 require("prototypes/items/SE/naquium-rounds-magazine")
 require("prototypes/items/SE/beryllium-rounds-magazine")
 require("prototypes/items/SE/cryonite-rounds-magazine")
-require("prototypes/items/SE/vulcanite-shotgun-shell")
+--require("prototypes/items/SE/vulcanite-shotgun-shell")    not ready yet
 
 
 --recipes
 require("prototypes/recipes/SE/advanced-recipe")
-require("prototypes/recipes/SE/advanced-shotgun-recipe")
+--require("prototypes/recipes/SE/advanced-shotgun-recipe")
 require("prototypes/recipes/SE/water-recipe")
 require("prototypes/recipes/SE/iridium-recipe")
 require("prototypes/recipes/SE/vulcanite-recipe")
 require("prototypes/recipes/SE/naquium-recipe")
 require("prototypes/recipes/SE/beryllium-recipe")
 require("prototypes/recipes/SE/cryonite-recipe")
-require("prototypes/recipes/SE/vulcanite-shotgun-recipe")
-
+--require("prototypes/recipes/SE/vulcanite-shotgun-recipe")
 end

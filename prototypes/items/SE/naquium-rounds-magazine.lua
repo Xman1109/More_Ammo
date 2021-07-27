@@ -16,10 +16,34 @@ data:extend(
           type = "instant",
           target_effects =
           {
-            {
+              {
+                type = "create-entity",
+                entity_name = "big-explosion-hit"
+              },
+              {
+                type = "create-entity",
+                entity_name = "big-explosion-hit"
+              },
+              {
+                type = "create-entity",
+                entity_name = "big-explosion-hit"
+              },
+              {
+                type = "create-entity",
+                entity_name = "flying-robot-damaged-explosion"
+              },
+              {
+                type = "create-entity",
+                entity_name = "flying-robot-damaged-explosion"
+              },
+              {
+                type = "create-entity",
+                entity_name = "flying-robot-damaged-explosion"
+              },
+              {
               type = "damage",
               damage = { amount = 20, type = "physical"}
-            }
+              }
           }
         }
       }

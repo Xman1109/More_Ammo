@@ -15,7 +15,6 @@ data:extend(
                 {
                   type = "instant",
                   target_effects =
-                  {
                     {
                       {
                         type = "create-entity",
@@ -41,7 +40,6 @@ data:extend(
                       damage = { amount = 18, type = "physical"}
                     }
                   }
-                }
               }
             },
             magazine_size = 10,
