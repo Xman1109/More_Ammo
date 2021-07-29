@@ -15,7 +15,7 @@ data:extend({
                 {
                     type = "unlock-recipe",
                    recipe = "fire-ammo-recipe"
-                },  
+                }, 
                 {
                     type = "unlock-recipe",
                    recipe = "he-ammo-recipe"
