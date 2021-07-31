@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.6
-Date: 2021-
+Date: 2021-08-01
   Features:
     - Added special ammo for the Space Exploration Materials!
     - Advanced Magazine (Base crafting ingredient for the all of the new Items)
@@ -12,6 +12,7 @@ Date: 2021-
     - Naquium ammo (lightning on impact)
   Info:
     - I will probably do some balance updates in the next few days!
+    - Feel free to suggest your ideas!
     - Icons by alisadraw_things on Instagram
     - thanks to my friend for doing the translations
 ---------------------------------------------------------------------------------------------------

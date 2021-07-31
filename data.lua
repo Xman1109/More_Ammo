@@ -62,6 +62,6 @@ require("prototypes/recipes/SE/cryonite-recipe")
 
 
 --technology
-require("prototypes/technology/SE")
+require("prototypes/technology/SE-ammo")
 
 end
