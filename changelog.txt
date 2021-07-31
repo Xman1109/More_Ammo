@@ -13,7 +13,7 @@ Date: 2021-08-01
   Info:
     - I will probably do some balance updates in the next few days!
     - Feel free to suggest your ideas!
-    - Icons by alisadraw_things on Instagram
+    - Icons & thumbnail by alisadraw_things on Instagram
     - thanks to my friend for doing the translations
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.5
