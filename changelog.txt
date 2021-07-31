@@ -2,17 +2,18 @@
 Version: 1.5.6
 Date: 2021-
   Features:
-    - Added special Ammo for the Space Exploration Materials!
-    - Advanced Magazine (Base crafting ingredient for the most new Items)
-    - Water-Ice Ammo (it deals 0 Damage, just for fun)
-    - Cryonite Ammo (has a slowing effect)
-    - Iridium Ammo (THATS A LOT OF DAMAGE!)
-    - Beryllium Ammo (Has no function. ¯\_(ツ)_/¯ )
-    - Vulcanite Ammo (just better Fire Ammo)
-    - Naquium Ammo (Lightning on Impact)
+    - Added special ammo for the Space Exploration Materials!
+    - Advanced Magazine (Base crafting ingredient for the all of the new Items)
+    - Water-Ice ammo (it deals 0 Damage, just for fun)
+    - Cryonite ammo (has a slowing effect !coming soon!)
+    - Iridium ammo (THATS A LOT OF DAMAGE!)
+    - Beryllium ammo (Has no function. ¯\_(ツ)_/¯ )
+    - Vulcanite ammo (just better fire ammo that can Ignite a whole Forest)
+    - Naquium ammo (lightning on impact)
   Info:
+    - I will probably do some balance updates in the next few days!
     - Icons by alisadraw_things on Instagram
-    - thanks to my Friend for doing the Localisation
+    - thanks to my friend for doing the translations
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.5
 Date: 2021-06-05

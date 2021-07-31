@@ -5,7 +5,7 @@ data:extend(
       name = "advanced-recipe",
       icon = "__More_Ammo__/graphics/icons/items/SE/advanced-magazine.png",
       icon_size = 63,
-      enabled = true,
+      enabled = false,
       category = "crafting",
       group = "intermediate-products",
       subgroup = "intermediate-product",

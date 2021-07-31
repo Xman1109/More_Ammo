@@ -59,4 +59,9 @@ require("prototypes/recipes/SE/naquium-recipe")
 require("prototypes/recipes/SE/beryllium-recipe")
 require("prototypes/recipes/SE/cryonite-recipe")
 --require("prototypes/recipes/SE/vulcanite-shotgun-recipe")
+
+
+--technology
+require("prototypes/technology/SE")
+
 end

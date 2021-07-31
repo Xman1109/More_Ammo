@@ -5,7 +5,7 @@ data:extend(
         name = "water-recipe",
         icon = "__More_Ammo__/graphics/icons/items/SE/water-magazine.png",
         icon_size = 63,
-        enabled = true,
+        enabled = false,
         category = "crafting",
         group = "combat",
         subgroup = "ammo",
