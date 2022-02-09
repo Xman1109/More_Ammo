@@ -19,8 +19,12 @@ data:extend(  --its useless...
           target_effects =
           {
             {
+              type = "create-entity",
+              entity_name = "water-splash"
+            },
+            {
               type = "damage",
-              damage = { amount = 0, type = "physical"}  --you just get Mental damage....
+              damage = { amount = 0.01, type = "mental"}  --you just get Mental damage....
             }
           }
         }

@@ -29,7 +29,7 @@ require(recipes .. "empty-shotgun-recipe")
 require(recipes .. "uranium-shotgun-recipe")
 
 -- Items
---require(items .. "SA.sniper-rounds-magazine")
+-- require(items .. "SA.sniper-rounds-magazine")
 require(items .. "tungsten-rounds-magazine")
 require(items .. "fmj-rounds-magazine")
 require(items .. "sp-rounds-magazine")
@@ -66,4 +66,7 @@ if mods["space-exploration"] then
 
     -- technology
     require("prototypes/technology/SE-ammo")
+
+    -- ???
+    require(vanilla_changes .. "mental-damage")
 end

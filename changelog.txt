@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.7
 Date: 2022-02-09
+  Features:
+    - Water Ammo now gives you real mental damage!
   Changes:
     - Some minor balancing Changes
     - Made mipmaps for all Icons
