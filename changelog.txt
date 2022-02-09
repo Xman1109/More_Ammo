@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.7
+Date: 2022-02-09
+  Changes:
+    - Some minor balancing Changes
+    - Made mipmaps for all Icons
+    - Cleaned up some Spaghetti-Code
+---------------------------------------------------------------------------------------------------
 Version: 1.5.6
 Date: 2021-08-01
   Features:
@@ -11,7 +18,7 @@ Date: 2021-08-01
     - Vulcanite ammo (just better fire ammo that can Ignite a whole Forest)
     - Naquium ammo (lightning on impact)
   Info:
-    - I will probably do some balance updates in the next few days!
+    - I will probably do some balance updates in the next few updates!
     - Feel free to suggest your ideas!
     - Icons & thumbnail by alisadraw_things on Instagram
     - thanks to my friend for doing the translations
