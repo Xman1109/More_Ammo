@@ -4,6 +4,7 @@ data:extend(    --sp = soft point
     type = "ammo",
     name = "sp-rounds-magazine",
     icon = Graphics .. "sp-rounds-magazine.png",
+    icon_mipmaps = 4,
     icon_size = 63,
     ammo_type =
     {

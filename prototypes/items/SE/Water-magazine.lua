@@ -5,6 +5,7 @@ data:extend(  --its useless...
     type = "ammo",
     name = "water-magazine",
     icon = SE_graphics .. "water-magazine.png",
+    icon_mipmaps = 4,
     icon_size = 63,
     ammo_type =
     {

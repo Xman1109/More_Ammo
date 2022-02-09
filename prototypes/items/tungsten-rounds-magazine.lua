@@ -4,6 +4,7 @@ data:extend(  --scrapped the Idea of Tungsten Rounds (Tungsten = Hollowpoint)
     type = "ammo",
     name = "tungsten-rounds-magazine",
     icon = Graphics .. "tungsten-rounds-magazine.png",
+    icon_mipmaps = 4,
     icon_size = 63,
     ammo_type =
     {

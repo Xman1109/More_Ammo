@@ -1,6 +1,6 @@
-Graphics = "__More_Ammo__.graphics.items."
-SE_graphics = "__More_Ammo__.graphics.items.SE."
-SA_graphics = "__More_Ammo__.graphics.items.Sniper_Ammo."
+Graphics = "__More_Ammo__/graphics/icons/items/"
+SE_graphics = "__More_Ammo__/graphics/icons/items/SE/"
+SA_graphics = "__More_Ammo__/graphics/icons/items/Sniper_Ammo/"
 
 local recipes = "prototypes.recipes."
 local SE_recipes = "prototypes.recipes.SE."

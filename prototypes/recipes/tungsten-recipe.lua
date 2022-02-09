@@ -4,6 +4,7 @@ data:extend(
         type = "recipe",
         name = "tungsten-ammo-recipe",
         icon = "__More_Ammo__/graphics/icons/items/tungsten-rounds-magazine.png",
+        icon_mipmaps = 4,
         icon_size = 63,
         enabled = false,
         category = "crafting",

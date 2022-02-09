@@ -4,6 +4,7 @@ data:extend( --this is inspired from Krastorio 2
         type = "recipe",
         name = "he-ammo-recipe",
         icon = "__More_Ammo__/graphics/icons/items/he-rounds-magazine.png",
+        icon_mipmaps = 4,
         icon_size = 63,
         enabled = false,
         category = "advanced-crafting",

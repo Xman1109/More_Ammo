@@ -4,6 +4,7 @@ data:extend(    --fmj = Full Metal Jacked
     type = "ammo",
     name = "fmj-rounds-magazine",
     icon = Graphics .. "fmj-rounds-magazine.png",
+    icon_mipmaps = 4,
     icon_size = 63,
     ammo_type =
     {

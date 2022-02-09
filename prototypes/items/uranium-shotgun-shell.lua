@@ -4,6 +4,7 @@ data:extend(
             type = "ammo",
             name = "uranium-shotgun-shell",
             icon = Graphics .. "uranium-shotgun-shell.png",
+            icon_mipmaps = 4,
             icon_size = 63,
             ammo_type =
             {

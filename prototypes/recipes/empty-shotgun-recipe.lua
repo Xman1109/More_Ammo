@@ -4,6 +4,7 @@ data:extend(
         type = "recipe",
         name = "empty-shotgun-recipe",
         icon = "__More_Ammo__/graphics/icons/items/empty-shotgun-shell.png",
+        icon_mipmaps = 4,
         icon_size = 63,
         enabled = true,
         category = "crafting",

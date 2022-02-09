@@ -4,6 +4,7 @@ data:extend(
     type = "ammo",
     name = "fire-rounds-magazine",
     icon = Graphics .. "fire-rounds-magazine.png",
+    icon_mipmaps = 4,
     icon_size = 63,
     ammo_type =
     {

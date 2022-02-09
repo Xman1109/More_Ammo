@@ -4,6 +4,7 @@ data:extend(
     type = "ammo",
     name = "naquium-rounds-magazine",
     icon = SE_graphics .. "naquium-rounds-magazine.png",
+    icon_mipmaps = 4,
     icon_size = 63,
     ammo_type =
     {

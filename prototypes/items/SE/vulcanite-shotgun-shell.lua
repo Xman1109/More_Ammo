@@ -4,6 +4,7 @@ data:extend(
             type = "ammo",
             name = "vulcanite-shotgun-shell",
             icon = SE_graphics .. "vulcanite-shotgun-shell.png",
+            icon_mipmaps = 4,
             icon_size = 63,
             ammo_type =
             {
