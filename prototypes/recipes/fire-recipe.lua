@@ -17,7 +17,7 @@ data:extend(
          {"steel-plate", 4},
          {"sulfur", 5},
       },
-        energy_required = 40,
+        energy_required = 100,
         result = "fire-rounds-magazine"
         } 
 })

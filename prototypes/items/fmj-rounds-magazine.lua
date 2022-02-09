@@ -3,7 +3,7 @@ data:extend(    --fmj = Full Metal Jacked
     {
     type = "ammo",
     name = "fmj-rounds-magazine",
-    icon = "__More_Ammo__/graphics/icons/items/fmj-rounds-magazine.png",
+    icon = Graphics .. "fmj-rounds-magazine.png",
     icon_size = 63,
     ammo_type =
     {

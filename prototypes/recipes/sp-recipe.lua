@@ -13,8 +13,8 @@ data:extend(
         ingredients =
       {
          {"empty-magazine", 1},
-         {"iron-plate", 5},
-         {"steel-plate", 4},
+         {"iron-plate", 7},
+         {"steel-plate", 5},
       },
         energy_required = 40,
         result = "sp-rounds-magazine"

@@ -3,7 +3,7 @@ data:extend(
     {
     type = "ammo",
     name = "cryonite-rounds-magazine",
-    icon = "__More_Ammo__/graphics/icons/items/SE/cryonite-rounds-magazine.png",
+    icon = SE_graphics .. "cryonite-rounds-magazine.png",
     icon_size = 63,
     ammo_type =
     {

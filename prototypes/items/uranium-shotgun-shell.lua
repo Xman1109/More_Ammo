@@ -3,7 +3,7 @@ data:extend(
         {
             type = "ammo",
             name = "uranium-shotgun-shell",
-            icon = "__More_Ammo__/graphics/icons/items/uranium-shotgun-shell.png",
+            icon = Graphics .. "uranium-shotgun-shell.png",
             icon_size = 63,
             ammo_type =
             {

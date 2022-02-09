@@ -14,8 +14,8 @@ data:extend(
       {
          {"empty-magazine", 1},
          {"iron-plate", 3},
-         {"steel-plate", 5},
-         {"copper-plate", 5},
+         {"steel-plate", 7},
+         {"copper-plate", 3},
       },
         energy_required = 30,
         result = "tungsten-rounds-magazine"

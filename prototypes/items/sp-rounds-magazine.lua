@@ -3,7 +3,7 @@ data:extend(    --sp = soft point
     {
     type = "ammo",
     name = "sp-rounds-magazine",
-    icon = "__More_Ammo__/graphics/icons/items/sp-rounds-magazine.png",
+    icon = Graphics .. "sp-rounds-magazine.png",
     icon_size = 63,
     ammo_type =
     {

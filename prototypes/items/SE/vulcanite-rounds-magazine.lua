@@ -3,7 +3,7 @@ data:extend(
     {
     type = "ammo",
     name = "vulcanite-rounds-magazine",
-    icon = "__More_Ammo__/graphics/icons/items/SE/vulcanite-rounds-magazine.png",
+    icon = SE_graphics .. "vulcanite-rounds-magazine.png",
     icon_size = 63,
     ammo_type =
     {

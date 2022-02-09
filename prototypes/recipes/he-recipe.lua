@@ -17,7 +17,7 @@ data:extend( --this is inspired from Krastorio 2
          {"steel-plate", 4},
          {"explosives", 5},
       },
-        energy_required = 40,
+        energy_required = 100,
         result = "he-rounds-magazine"
-        } 
+        }
 })

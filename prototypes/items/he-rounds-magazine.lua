@@ -3,7 +3,7 @@ data:extend(
     {
     type = "ammo",
     name = "he-rounds-magazine",
-    icon = "__More_Ammo__/graphics/icons/items/he-rounds-magazine.png",
+    icon = Graphics .. "he-rounds-magazine.png",
     icon_size = 63,
     ammo_type =
     {

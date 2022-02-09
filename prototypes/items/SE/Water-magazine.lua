@@ -4,7 +4,7 @@ data:extend(  --its useless...
     {
     type = "ammo",
     name = "water-magazine",
-    icon = "__More_Ammo__/graphics/icons/items/SE/water-magazine.png",
+    icon = SE_graphics .. "water-magazine.png",
     icon_size = 63,
     ammo_type =
     {
