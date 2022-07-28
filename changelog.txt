@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.9
+Date: 2022-07-28
+  Changes:
+    - renamed Water-magazine.lua to water-magazine.lua which fixes a bug (more information on GitHub)
+---------------------------------------------------------------------------------------------------
 Version: 1.5.8
 Date: 2022-07-10
   Changes:
