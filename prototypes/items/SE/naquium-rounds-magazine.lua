@@ -1,22 +1,22 @@
 data:extend(
-{
+  {
     {
-    type = "ammo",
-    name = "naquium-rounds-magazine",
-    icon = SE_graphics .. "naquium-rounds-magazine.png",
-    icon_mipmaps = 4,
-    icon_size = 63,
-    ammo_type =
-    {
-      category = "bullet",
-      action =
+      type = "ammo",
+      name = "naquium-rounds-magazine",
+      icon = SE_graphics .. "naquium-rounds-magazine.png",
+      icon_mipmaps = 4,
+      icon_size = 64,
+      ammo_type =
       {
-        type = "direct",
-        action_delivery =
+        category = "bullet",
+        action =
         {
-          type = "instant",
-          target_effects =
+          type = "direct",
+          action_delivery =
           {
+            type = "instant",
+            target_effects =
+            {
               {
                 type = "create-entity",
                 entity_name = "big-explosion-hit"
@@ -42,16 +42,16 @@ data:extend(
                 entity_name = "flying-robot-damaged-explosion"
               },
               {
-              type = "damage",
-              damage = { amount = 20, type = "physical"}
+                type = "damage",
+                damage = { amount = 20, type = "physical" }
               }
+            }
           }
         }
-      }
-    },
-    magazine_size = 5,
-    group = "combat",
-    subgroup = "ammo",
-    stack_size = 200
-  }
-})
+      },
+      magazine_size = 5,
+      group = "combat",
+      subgroup = "ammo",
+      stack_size = 200
+    }
+  })

@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.10
+Date: 2022-08-31
+  Changes:
+    - changed the .cfg filenames to base.cfg
+    - every icon now uses 64x64 px with 4 mipmaps
+    - new technology icons
+    - fixed some translation issues
+---------------------------------------------------------------------------------------------------
 Version: 1.5.9
 Date: 2022-07-28
   Changes:

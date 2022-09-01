@@ -1,24 +1,24 @@
 data:extend(
+  {
     {
-        {
-        type = "recipe",
-        name = "fire-ammo-recipe",
-        icon = "__More_Ammo__/graphics/icons/items/fire-rounds-magazine.png",
-        icon_mipmaps = 4,
-        icon_size = 63,
-        enabled = false,
-        category = "advanced-crafting",
-        group = "combat",
-        subgroup = "ammo",
-        order = "ah",
-        ingredients =
+      type = "recipe",
+      name = "fire-ammo-recipe",
+      icon = Graphics .. "fire-rounds-magazine.png",
+      icon_mipmaps = 4,
+      icon_size = 64,
+      enabled = false,
+      category = "advanced-crafting",
+      group = "combat",
+      subgroup = "ammo",
+      order = "ah",
+      ingredients =
       {
-         {"empty-magazine", 1},
-         {"iron-plate", 5},
-         {"steel-plate", 4},
-         {"sulfur", 5},
+        { "empty-magazine", 1 },
+        { "iron-plate", 5 },
+        { "steel-plate", 4 },
+        { "sulfur", 5 },
       },
-        energy_required = 100,
-        result = "fire-rounds-magazine"
-        } 
-})
+      energy_required = 100,
+      result = "fire-rounds-magazine"
+    }
+  })

@@ -3,9 +3,9 @@ data:extend(
     {
       type = "recipe",
       name = "empty-recipe",
-      icon = "__More_Ammo__/graphics/icons/items/empty-magazine.png",
+      icon = Graphics .. "empty-magazine.png",
       icon_mipmaps = 4,
-      icon_size = 63,
+      icon_size = 64,
       enabled = true,
       category = "crafting",
       group = "intermediate-products",
@@ -13,10 +13,10 @@ data:extend(
       order = "a",
       ingredients =
       {
-        {"iron-plate", 2},
+        { "iron-plate", 2 },
       },
       energy_required = 5,
       result = "empty-magazine"
-    } 
+    }
   }
 )
