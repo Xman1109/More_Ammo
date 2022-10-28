@@ -27,6 +27,10 @@ require(recipes .. "acid-recipe")
 require(recipes .. "empty-recipe")
 require(recipes .. "empty-shotgun-recipe")
 require(recipes .. "uranium-shotgun-recipe")
+if settings.startup["high-capacity-magazines"].value then
+    require(recipes .. "empty-high-capacity-recipe")
+    require(recipes .. "empty-high-capacity-shotgun-recipe")
+end
 
 -- Items
 require(items .. "tungsten-rounds-magazine")
@@ -38,6 +42,10 @@ require(items .. "acid-rounds-magazine")
 require(items .. "empty-magazine")
 require(items .. "empty-shotgun-shell")
 require(items .. "uranium-shotgun-shell")
+if settings.startup["high-capacity-magazines"].value then
+    require(items .. "empty-high-capacity-magazine")
+    require(items .. "empty-high-capacity-shotgun-shell")
+end
 
 if mods["space-exploration"] then
 
@@ -51,6 +59,9 @@ if mods["space-exploration"] then
     require(SE_items .. "beryllium-rounds-magazine")
     require(SE_items .. "cryonite-rounds-magazine")
     -- require(SE_items .. "vulcanite-shotgun-shell")    not ready yet
+    if settings.startup["high-capacity-magazines"].value then
+        require(SE_items .. "advanced-high-capacity-magazine")
+    end
 
     -- recipes
     require(SE_recipes .. "advanced-recipe")
@@ -62,6 +73,9 @@ if mods["space-exploration"] then
     require(SE_recipes .. "beryllium-recipe")
     require(SE_recipes .. "cryonite-recipe")
     -- require(SE_recipes .. "vulcanite-shotgun-recipe")
+    if settings.startup["high-capacity-magazines"].value then
+        require(SE_recipes .. "advanced-high-capacity-recipe")
+    end
 
     -- technology
     require("prototypes/technology/SE-ammo")
