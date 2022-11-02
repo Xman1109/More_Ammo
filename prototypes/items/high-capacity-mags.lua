@@ -12,6 +12,17 @@ for _, item in pairs(items) do
         export.name = "high-capacity-" .. item
         export.magazine_size = export.magazine_size * settings.startup[item .. "-high-capacity"].value
         export.stack_size = 100
+        if item:find("shell") then
+            export.localised_name = { "", { "item-name.extended_shell" }, " ", { "item-name." .. item } }
+        elseif item:find("firearm") then
+            export.localised_name = { "item-name.high-capacity-firearm-magazine" }
+        elseif item:find("piercing") then
+            export.localised_name = { "item-name.high-capacity-piercing-rounds-magazine" }
+        elseif item:find("uranium") then
+            export.localised_name = { "item-name.high-capacity-uranium-rounds-magazine" }
+        else
+            export.localised_name = { "", { "item-name.extended" }, " ", { "item-name." .. item } }
+        end
         export.icons = {
             {
                 icon = export.icon,
@@ -25,6 +36,7 @@ for _, item in pairs(items) do
                 shift = { -3, -3 },
             },
         }
+        log(serpent.block(export))
         data:extend({ export })
     end
 end

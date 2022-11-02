@@ -1,8 +1,12 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.11
-Date: ????
+Date: 2022-11-02
   Changes:
-    - TODO: Locales, Techs
+    - Migration for Space Exploration
+    - High capacity version of every recipe
+    - Technologies to unlock the high capacity recipes
+    - Settings for the new recipes
+    - Fixed the german translation of the Explosive Ammunition
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.10
 Date: 2022-08-31

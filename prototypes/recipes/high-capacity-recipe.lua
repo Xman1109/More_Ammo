@@ -16,6 +16,7 @@ for _, item in pairs(items) do
         local export = table.deepcopy(data.raw["recipe"][item])
         export.name = "high-capacity-" .. item
         export.enabled = false
+        export.localised_name = data.raw["ammo"][icons[_]].localised_name
         export.icons = data.raw["ammo"]["high-capacity-" .. icons[_]].icons
         if data.raw["recipe"][item].order ~= nil then
             export.order = export.order .. "-b"
@@ -41,6 +42,7 @@ for _, item in pairs(items) do
             end
         end
         export.result = "high-capacity-" .. icons[_]
+        log(serpent.block(export))
         data:extend({ export })
     else
         log("high-capacity-" .. icons[_] .. " does not exist")
