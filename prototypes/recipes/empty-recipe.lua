@@ -15,7 +15,7 @@ data:extend(
       {
         { "iron-plate", 2 },
       },
-      energy_required = 5,
+      energy_required = 0.5,
       result = "empty-magazine"
     }
   }

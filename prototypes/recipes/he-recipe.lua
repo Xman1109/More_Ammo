@@ -16,9 +16,9 @@ data:extend(--this is inspired from Krastorio 2
         { "empty-magazine", 1 },
         { "iron-plate", 5 },
         { "steel-plate", 4 },
-        { "explosives", 5 },
+        { "explosives", 1 },
       },
-      energy_required = 100,
+      energy_required = 6,
       result = "he-rounds-magazine"
     }
   })

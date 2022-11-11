@@ -16,7 +16,7 @@ data:extend(
         { "advanced-magazine", 1 },
         { "se-water-ice", 5 }
       },
-      energy_required = 40,
+      energy_required = 2,
       result = "water-magazine"
     }
   })

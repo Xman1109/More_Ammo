@@ -16,7 +16,7 @@ data:extend(
         { "advanced-magazine", 1 },
         { "se-beryllium-ingot", 3 }
       },
-      energy_required = 40,
+      energy_required = 8,
       always_show_made_in = true,
       result = "beryllium-rounds-magazine"
     }

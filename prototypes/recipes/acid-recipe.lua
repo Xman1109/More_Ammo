@@ -16,9 +16,9 @@ data:extend(
         { "empty-magazine", 1 },
         { "iron-plate", 5 },
         { "steel-plate", 4 },
-        { type = "fluid", name = "sulfuric-acid", amount = 25 },
+        { type = "fluid", name = "sulfuric-acid", amount = 10 },
       },
-      energy_required = 100,
+      energy_required = 4,
       result = "acid-rounds-magazine"
     }
   })

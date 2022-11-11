@@ -16,9 +16,9 @@ data:extend(
         { "empty-magazine", 1 },
         { "iron-plate", 5 },
         { "steel-plate", 4 },
-        { "sulfur", 5 },
+        { "sulfur", 2 },
       },
-      energy_required = 100,
+      energy_required = 4,
       result = "fire-rounds-magazine"
     }
   })

@@ -23,13 +23,23 @@ data:extend(
               },
               {
                 type = "damage",
-                damage = { amount = 10, type = "fire" }
+                damage = { amount = 6, type = "fire" }
+              },
+              {
+                type = "create-sticker",
+                sticker = "fire-ammo-sticker",
+                show_in_tooltip = true
               }
+            },
+            source_effects =
+            {
+              type = "create-explosion",
+              entity_name = "explosion-gunshot"
             }
           }
         }
       },
-      magazine_size = 15,
+      magazine_size = 10,
       group = "combat",
       subgroup = "ammo",
       stack_size = 200

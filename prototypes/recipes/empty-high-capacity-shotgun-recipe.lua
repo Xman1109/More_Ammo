@@ -28,7 +28,7 @@ data:extend(
             {
                 { "copper-plate", math.ceil(2 + 2 * settings.startup["empty-shotgun-shell-high-capacity"].value / 4 * 3) },
             },
-            energy_required = 5,
+            energy_required = data.raw["recipe"]["empty-shotgun-recipe"].energy_required,
             result = "empty-high-capacity-shotgun-shell"
         }
     })

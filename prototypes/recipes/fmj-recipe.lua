@@ -18,7 +18,7 @@ data:extend(
         { "steel-plate", 3 },
         { "copper-plate", 2 },
       },
-      energy_required = 40,
+      energy_required = 8,
       result = "fmj-rounds-magazine"
     }
   })

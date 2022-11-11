@@ -16,7 +16,7 @@ data:extend(
         { "advanced-shotgun-shell", 1 },
         { "se-vulcanite-ion-exchange-beads", 5 }
       },
-      energy_required = 30,
+      energy_required = 12,
       result = "vulcanite-shotgun-shell"
     }
   })

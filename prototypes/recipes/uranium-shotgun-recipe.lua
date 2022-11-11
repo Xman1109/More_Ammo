@@ -16,7 +16,7 @@ data:extend(
         { "piercing-shotgun-shell", 1 },
         { "uranium-238", 1 }
       },
-      energy_required = 30,
+      energy_required = 10,
       result = "uranium-shotgun-shell"
     }
   })

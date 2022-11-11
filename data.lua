@@ -8,6 +8,10 @@ local items = "prototypes.items."
 local SE_items = "prototypes.items.SE."
 local vanilla_changes = "prototypes.vanilla-changes."
 local technology = "prototypes.technology."
+local stickers = "prototypes.stickers."
+
+-- Stickers
+require(stickers .. "fire-ammo-sticker")
 
 -- vanilla changes
 require(vanilla_changes .. "ammo-recipes")

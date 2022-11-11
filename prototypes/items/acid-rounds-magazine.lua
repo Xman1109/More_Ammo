@@ -18,13 +18,19 @@ data:extend(
             target_effects =
             {
               {
-                type = "create-entity",
-                entity_name = "acid-splash-fire-spitter-small"
+                type = "damage",
+                damage = { amount = 6, type = "acid" }
               },
               {
-                type = "damage",
-                damage = { amount = 20, type = "acid" }
+                type = "create-fire",
+                entity_name = "acid-splash-fire-spitter-medium",
+                show_in_tooltip = true
               }
+            },
+            source_effects =
+            {
+              type = "create-explosion",
+              entity_name = "explosion-gunshot"
             }
           }
         }

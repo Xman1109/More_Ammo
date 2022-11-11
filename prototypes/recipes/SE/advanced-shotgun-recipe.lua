@@ -17,7 +17,7 @@ data:extend(
         { "plastic-bar", 5 },
         { "steel-plate", 3 }
       },
-      energy_required = 5,
+      energy_required = 2,
       result = "advanced-shotgun-shell"
     }
   })

@@ -16,7 +16,7 @@ data:extend(
         { "advanced-magazine", 1 },
         { "se-vulcanite-ion-exchange-beads", 3 }
       },
-      energy_required = 45,
+      energy_required = 10,
       always_show_made_in = true,
       result = "vulcanite-rounds-magazine"
     }

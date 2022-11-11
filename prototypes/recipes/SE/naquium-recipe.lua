@@ -16,7 +16,7 @@ data:extend(
         { "advanced-magazine", 1 },
         { "se-naquium-ingot", 3 }
       },
-      energy_required = 30,
+      energy_required = 12,
       always_show_made_in = true,
       result = "naquium-rounds-magazine"
     }

@@ -17,7 +17,7 @@ data:extend(
         { "steel-plate", 3 },
         { "plastic-bar", 5 },
       },
-      energy_required = 5,
+      energy_required = 2,
       result = "advanced-magazine"
     }
   }

@@ -17,7 +17,7 @@ data:extend(
         { "iron-plate", 7 },
         { "steel-plate", 5 },
       },
-      energy_required = 40,
+      energy_required = 8,
       result = "sp-rounds-magazine"
     }
   })

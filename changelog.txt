@@ -1,4 +1,30 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.12
+Date: 2022-11-11
+  Info:
+    - The following changes were not done by me, but by @daniels1989. I just merged his changes with his allowance into the original.
+  Changes:
+    - Visual tweaks for the acid & fire damage effects.
+    - empty magazine crafting time reduced to 0.5 seconds.
+    - empty shotgun shell crafting time reduced to 0.5 seconds.
+    - acid ammo crafting time reduced to 4 seconds.
+    - fire ammo crafting time reduced to 4 seconds.
+    - full metal jacket ammo crafting time reduced to 8 seconds.
+    - high explosive ammo crafting time reduced to 6 seconds.
+    - soft point ammo crafting time reduced to 8 seconds.
+    - hollow point ammo crafting time reduced to 4 seconds.
+    - uranium shotgun shell crafting time reduced to 10 seconds.
+    - acid recipe now requires 10 sulfuric acid.
+    - fire recipe now requires 2 sulfur.
+    - high explosive recipe now requires 1 explosive.
+    - advanced magazine crafting time reduced to 2 seconds.
+    - beryllium magazine crafting time reduced to 8 seconds.
+    - cryonite magazine crafting time reduced to 6 seconds.
+    - iridium magazine crafting time reduced to 14 seconds.
+    - naquium magazine crafting time reduced to 12 seconds.
+    - vulcanite magazine crafting time reduced to 10 seconds.
+    - ice ammo crafting time reduced to 2 seconds.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.11
 Date: 2022-11-02
   Changes:

@@ -30,7 +30,7 @@ data:extend(
                 { "steel-plate", math.ceil(3 + 3 * settings.startup["advanced-magazine-high-capacity"].value / 4 * 3) },
                 { "plastic-bar", math.ceil(5 + 5 * settings.startup["advanced-magazine-high-capacity"].value / 4 * 3) },
             },
-            energy_required = 5,
+            energy_required = data.raw["recipe"]["advanced-recipe"].energy_required,
             result = "advanced-high-capacity-magazine"
         }
     }

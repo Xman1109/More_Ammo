@@ -16,7 +16,7 @@ data:extend(
         { "advanced-magazine", 1 },
         { "se-cryonite-ion-exchange-beads", 3 }
       },
-      energy_required = 30,
+      energy_required = 6,
       always_show_made_in = true,
       result = "cryonite-rounds-magazine"
     }

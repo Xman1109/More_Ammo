@@ -15,7 +15,7 @@ data:extend(
       {
         { "copper-plate", 2 }
       },
-      energy_required = 5,
+      energy_required = 0.5,
       result = "empty-shotgun-shell"
     }
   })

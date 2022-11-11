@@ -18,7 +18,7 @@ data:extend(
         { "steel-plate", 7 },
         { "copper-plate", 3 },
       },
-      energy_required = 30,
+      energy_required = 4,
       result = "tungsten-rounds-magazine"
     }
   })

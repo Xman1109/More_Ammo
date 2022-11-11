@@ -16,7 +16,7 @@ data:extend(
         { "advanced-magazine", 1 },
         { "se-iridium-ingot", 3 }
       },
-      energy_required = 50,
+      energy_required = 14,
       always_show_made_in = true,
       result = "iridium-rounds-magazine"
     }
