@@ -1,6 +1,12 @@
 {
     "Lua.diagnostics.globals": [
         "data",
-        "mods"
+        "mods",
+        "settings"
+    ],
+    "Lua.diagnostics.disable": [
+        "undefined-field",
+        "undefined-global",
+        "lowercase-global"
     ]
 }
