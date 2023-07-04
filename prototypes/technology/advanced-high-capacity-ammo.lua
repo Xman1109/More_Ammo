@@ -15,6 +15,18 @@ data:extend({
             },
             {
                 type = "unlock-recipe",
+                recipe = "high-capacity-firearm-magazine"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "high-capacity-piercing-rounds-magazine"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "high-capacity-uranium-rounds-magazine"
+            },
+            {
+                type = "unlock-recipe",
                 recipe = "high-capacity-tungsten-ammo-recipe"
             },
             {
