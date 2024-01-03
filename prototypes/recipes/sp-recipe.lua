@@ -1,3 +1,11 @@
+local hide_setting = nil
+if settings.startup["advanced-magazines"].value then
+  hide_setting = false
+else
+  hide_setting = true
+end
+
+
 data:extend(
   {
     {
@@ -18,6 +26,7 @@ data:extend(
         { "steel-plate", 5 },
       },
       energy_required = 8,
-      result = "sp-rounds-magazine"
+      result = "sp-rounds-magazine",
+      hidden = hide_setting,
     }
   })

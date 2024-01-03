@@ -1,3 +1,11 @@
+local hide_setting = nil
+if settings.startup["chemical-magazines"].value then
+  hide_setting = false
+else
+  hide_setting = true
+end
+
+
 data:extend(
   {
     {
@@ -19,6 +27,7 @@ data:extend(
         { "sulfur", 2 },
       },
       energy_required = 4,
-      result = "fire-rounds-magazine"
+      result = "fire-rounds-magazine",
+      hidden = hide_setting,
     }
   })

@@ -1,3 +1,11 @@
+local hide_setting = nil
+if settings.startup["chemical-magazines"].value then
+  hide_setting = false
+else
+  hide_setting = true
+end
+
+
 data:extend(
   {
     {
@@ -19,6 +27,7 @@ data:extend(
         { type = "fluid", name = "sulfuric-acid", amount = 10 },
       },
       energy_required = 4,
-      result = "acid-rounds-magazine"
+      result = "acid-rounds-magazine",
+      hidden = hide_setting,
     }
   })

@@ -1,3 +1,11 @@
+local hide_setting = nil
+if settings.startup["chemical-magazines"].value then
+  hide_setting = false
+else
+  hide_setting = true
+end
+
+
 data:extend(--this is inspired from Krastorio 2
   {
     {
@@ -19,6 +27,7 @@ data:extend(--this is inspired from Krastorio 2
         { "explosives", 1 },
       },
       energy_required = 6,
-      result = "he-rounds-magazine"
+      result = "he-rounds-magazine",
+      hidden = hide_setting,
     }
   })

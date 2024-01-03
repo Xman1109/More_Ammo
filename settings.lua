@@ -7,6 +7,33 @@ data:extend(
             default_value = true,
             order = "a"
         }
+    },
+    {
+        {
+        type = "bool-setting",
+        name = "advanced-magazines",
+        setting_type = "startup",
+        default_value = true,
+        order = "b"
+        }
+    },
+    {
+        {
+            type = "bool-setting",
+            name = "chemical-magazines",
+            setting_type = "startup",
+            default_value = true,
+            order = "c"
+        }
+    },
+    {
+        {
+            type = "bool-setting",
+            name = "u238-slug-shell",
+            setting_type = "startup",
+            default_value = true,
+            order = "d"
+        }
     }
 )
 
@@ -49,23 +76,23 @@ end
 
 -- Settings for bullets per mag of every magazine
 local items_Sizes = {
-    {"firearm-magazine", 10},
-    {"piercing-rounds-magazine", 10},
-    {"uranium-rounds-magazine", 10},
-    {"acid-rounds-magazine", 10},
-    {"fire-rounds-magazine", 10},
-    {"fmj-rounds-magazine", 5},
-    {"he-rounds-magazine", 5},
-    {"sp-rounds-magazine", 30},
-    {"tungsten-rounds-magazine", 10},
-    {"shotgun-shell", 10},
-    {"piercing-shotgun-shell", 10},
-    {"uranium-shotgun-shell", 10},
-    {"beryllium-rounds-magazine", 5},
-    {"cryonite-rounds-magazine", 5},
-    {"iridium-rounds-magazine", 5},
-    {"naquium-rounds-magazine", 5},
-    {"vulcanite-rounds-magazine", 5}}
+    { "firearm-magazine",          10 },
+    { "piercing-rounds-magazine",  10 },
+    { "uranium-rounds-magazine",   10 },
+    { "acid-rounds-magazine",      10 },
+    { "fire-rounds-magazine",      10 },
+    { "fmj-rounds-magazine",       5 },
+    { "he-rounds-magazine",        5 },
+    { "sp-rounds-magazine",        30 },
+    { "tungsten-rounds-magazine",  10 },
+    { "shotgun-shell",             10 },
+    { "piercing-shotgun-shell",    10 },
+    { "uranium-shotgun-shell",     10 },
+    { "beryllium-rounds-magazine", 5 },
+    { "cryonite-rounds-magazine",  5 },
+    { "iridium-rounds-magazine",   5 },
+    { "naquium-rounds-magazine",   5 },
+    { "vulcanite-rounds-magazine", 5 } }
 
 for _, item in ipairs(items_Sizes) do
     local localized_name = { "", { "mod-setting-name.BPM" }, "", { "item-name." .. item[1] } }
@@ -88,23 +115,23 @@ end
 
 --setting to change the damage of every magazine
 local items_Damage = {
-    {"firearm-magazine", 5},
-    {"piercing-rounds-magazine", 8},
-    {"uranium-rounds-magazine", 24},
-    {"acid-rounds-magazine", 6},
-    {"fire-rounds-magazine", 6},
-    {"fmj-rounds-magazine", 15},
-    {"he-rounds-magazine", 10},
-    {"sp-rounds-magazine", 10},
-    {"tungsten-rounds-magazine", 11},
-    {"shotgun-shell", 4},
-    {"piercing-shotgun-shell", 6},
-    {"uranium-shotgun-shell", 24},
-    {"beryllium-rounds-magazine", 19},
-    {"cryonite-rounds-magazine", 15},
-    {"iridium-rounds-magazine", 35},
-    {"naquium-rounds-magazine", 20},
-    {"vulcanite-rounds-magazine", 19}}
+    { "firearm-magazine",          5 },
+    { "piercing-rounds-magazine",  8 },
+    { "uranium-rounds-magazine",   24 },
+    { "acid-rounds-magazine",      6 },
+    { "fire-rounds-magazine",      6 },
+    { "fmj-rounds-magazine",       15 },
+    { "he-rounds-magazine",        10 },
+    { "sp-rounds-magazine",        10 },
+    { "tungsten-rounds-magazine",  11 },
+    { "shotgun-shell",             4 },
+    { "piercing-shotgun-shell",    6 },
+    { "uranium-shotgun-shell",     24 },
+    { "beryllium-rounds-magazine", 19 },
+    { "cryonite-rounds-magazine",  15 },
+    { "iridium-rounds-magazine",   35 },
+    { "naquium-rounds-magazine",   20 },
+    { "vulcanite-rounds-magazine", 19 } }
 
 for _, item in ipairs(items_Damage) do
     local localised_name = { "", { "mod-setting-name.damage" }, "", { "item-name." .. item[1] } }

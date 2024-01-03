@@ -1,3 +1,11 @@
+local hide_setting = nil
+if settings.startup["advanced-magazines"].value then
+    hide_setting = false
+else
+    hide_setting = true
+end
+
+
 data:extend({
 
     {
@@ -33,7 +41,8 @@ data:extend({
                 { "military-science-pack", 1 }
             },
             time = 45
-        }
+        },
+        hidden = hide_setting,
     }
 
 })
