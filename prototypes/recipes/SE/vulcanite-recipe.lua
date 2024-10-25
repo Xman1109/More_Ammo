@@ -13,11 +13,11 @@ data:extend(
       order = "an",
       ingredients =
       {
-        { "advanced-magazine", 1 },
-        { "se-vulcanite-ion-exchange-beads", 3 }
+        {type="item", name="advanced-magazine", amount=1},
+        {type="item", name="se-vulcanite-ion-exchange-beads", amount=3}
       },
       energy_required = 10,
       always_show_made_in = true,
-      result = "vulcanite-rounds-magazine"
+      results = {{type = "item", name = "vulcanite-rounds-magazine", amount = 1}},
     }
   })

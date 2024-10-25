@@ -13,11 +13,11 @@ data:extend(
       order = "ak",
       ingredients =
       {
-        { "advanced-magazine", 1 },
-        { "se-beryllium-ingot", 3 }
+        {type="item", name="advanced-magazine", amount=1},
+        {type="item", name="se-beryllium-ingot", amount=3}
       },
       energy_required = 8,
       always_show_made_in = true,
-      result = "beryllium-rounds-magazine"
+      results = {{type = "item", name = "beryllium-rounds-magazine", amount = 1}},
     }
   })

@@ -12,7 +12,7 @@ data:extend({
         type = "technology",
         name = "unlock-ammo",
         icon = "__More_Ammo__/graphics/icons/technology/advanced-ammo.png",
-        icon_size = "256",
+        icon_size = 256,
         icon_mipmaps = 4,
         prerequisites = { "military-3" },
         effects =

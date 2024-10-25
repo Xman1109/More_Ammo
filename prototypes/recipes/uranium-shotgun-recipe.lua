@@ -13,10 +13,10 @@ data:extend(
       order = "c-a",
       ingredients =
       {
-        { "piercing-shotgun-shell", 1 },
-        { "uranium-238", 1 }
+        {type="item", name="piercing-shotgun-shell", amount=1},
+        {type="item", name="uranium-238", amount=1}
       },
       energy_required = 10,
-      result = "uranium-shotgun-shell"
+      results = {{type = "item", name = "uranium-shotgun-shell", amount = 1}},
     }
   })

@@ -13,11 +13,11 @@ data:extend(
       order = "al",
       ingredients =
       {
-        { "advanced-magazine", 1 },
-        { "se-cryonite-ion-exchange-beads", 3 }
+        {type="item", name="advanced-magazine", amount=1},
+        {type="item", name="se-cryonite-ion-exchange-beads", amount=3}
       },
       energy_required = 6,
       always_show_made_in = true,
-      result = "cryonite-rounds-magazine"
+      results = {{type = "item", name = "cryonite-rounds-magazine", amount = 1}},
     }
   })

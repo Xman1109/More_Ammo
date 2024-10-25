@@ -26,9 +26,9 @@ data:extend(
             order = "a-b",
             ingredients =
             {
-                { "copper-plate", math.ceil(2 + 2 * settings.startup["empty-shotgun-shell-high-capacity"].value / 4 * 3) },
+                { type = "item", name = "copper-plate", amount = math.ceil(2 + 2 * settings.startup["empty-shotgun-shell-high-capacity"].value / 4 * 3) },
             },
             energy_required = data.raw["recipe"]["empty-shotgun-recipe"].energy_required,
-            result = "empty-high-capacity-shotgun-shell"
+            results = {{type = "item", name = "empty-high-capacity-shotgun-shell", amount = 1}},
         }
     })

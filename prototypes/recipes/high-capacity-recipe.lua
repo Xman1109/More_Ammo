@@ -41,7 +41,7 @@ for _, item in pairs(items) do
                 end
             end
         end
-        export.result = "high-capacity-" .. icons[_]
+        export.results = {{type = "item", name = "high-capacity-" .. icons[_], amount = 1}},
         log(serpent.block(export))
         data:extend({ export })
     else

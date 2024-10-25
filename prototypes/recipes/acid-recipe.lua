@@ -21,13 +21,13 @@ data:extend(
       order = "ag",
       ingredients =
       {
-        { "empty-magazine", 1 },
-        { "iron-plate", 5 },
-        { "steel-plate", 4 },
+        {type="item", name="empty-magazine", amount=1},
+        {type="item", name="iron-plate", amount=5},
+        {type="item", name="steel-plate", amount=4},
         { type = "fluid", name = "sulfuric-acid", amount = 10 },
       },
       energy_required = 4,
-      result = "acid-rounds-magazine",
+      results = {{type = "item", name = "acid-rounds-magazine", amount = 1}},
       hidden = hide_setting,
     }
   })

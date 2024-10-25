@@ -4,7 +4,7 @@ data:extend({
         type = "technology",
         name = "unlock-high-capacity-ammo",
         icon = "__More_Ammo__/graphics/icons/technology/advanced-high-capacity-ammo.png",
-        icon_size = "256",
+        icon_size = 256,
         icon_mipmaps = 4,
         prerequisites = { "unlock-ammo" },
         effects =

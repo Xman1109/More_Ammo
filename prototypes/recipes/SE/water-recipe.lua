@@ -13,10 +13,10 @@ data:extend(
       order = "aj",
       ingredients =
       {
-        { "advanced-magazine", 1 },
-        { "se-water-ice", 5 }
+        {type="item", name="advanced-magazine", amount=1},
+        {type="item", name="se-water-ice", amount=5}
       },
       energy_required = 2,
-      result = "water-magazine"
+      results = {{type = "item", name = "water-magazine", amount = 1}},
     }
   })

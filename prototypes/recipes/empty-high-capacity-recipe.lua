@@ -26,10 +26,10 @@ data:extend(
             order = "a-b",
             ingredients =
             {
-                { "iron-plate", math.ceil(2 + 2 * settings.startup["empty-magazine-high-capacity"].value / 4 * 3) },
+                { type = "item", name = "iron-plate", amount = math.ceil(2 + 2 * settings.startup["empty-magazine-high-capacity"].value / 4 * 3) },
             },
             energy_required = data.raw["recipe"]["empty-recipe"].energy_required,
-            result = "empty-high-capacity-magazine"
+            results = {{type = "item", name = "empty-high-capacity-magazine", amount = 1}},
         }
     }
 )

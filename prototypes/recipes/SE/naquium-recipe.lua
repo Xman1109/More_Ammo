@@ -13,11 +13,11 @@ data:extend(
       order = "am",
       ingredients =
       {
-        { "advanced-magazine", 1 },
-        { "se-naquium-ingot", 3 }
+        {type="item", name="advanced-magazine", amount=1},
+        {type="item", name="se-naquium-ingot", amount=3}
       },
       energy_required = 12,
       always_show_made_in = true,
-      result = "naquium-rounds-magazine"
+      results = {{type = "item", name = "naquium-rounds-magazine", amount = 1}},
     }
   })

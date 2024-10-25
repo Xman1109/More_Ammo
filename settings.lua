@@ -6,27 +6,21 @@ data:extend(
             setting_type = "startup",
             default_value = true,
             order = "a"
-        }
-    },
-    {
+        },
         {
         type = "bool-setting",
         name = "advanced-magazines",
         setting_type = "startup",
         default_value = true,
         order = "b"
-        }
-    },
-    {
+        },
         {
             type = "bool-setting",
             name = "chemical-magazines",
             setting_type = "startup",
             default_value = true,
             order = "c"
-        }
-    },
-    {
+        },
         {
             type = "bool-setting",
             name = "u238-slug-shell",

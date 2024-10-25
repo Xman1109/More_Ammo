@@ -13,11 +13,11 @@ data:extend(
       order = "ao",
       ingredients =
       {
-        { "advanced-magazine", 1 },
-        { "se-iridium-ingot", 3 }
+        {type="item", name="advanced-magazine", amount=1},
+        {type="item", name="se-iridium-ingot", amount=3}
       },
       energy_required = 14,
       always_show_made_in = true,
-      result = "iridium-rounds-magazine"
+      results = {{type = "item", name = "iridium-rounds-magazine", amount = 1}},
     }
   })

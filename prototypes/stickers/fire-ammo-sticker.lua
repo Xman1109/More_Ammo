@@ -9,11 +9,11 @@ data:extend(
 
             animation =
             {
-                filename = "__base__/graphics/entity/fire-flame/fire-flame-13.png",
-                line_length = 8,
-                width = 60,
-                height = 118,
-                frame_count = 25,
+                filename = "__base__/graphics/entity/fire-flame/fire-flame-03.png",
+                line_length = 10,
+                width = 84,
+                height = 124,
+                frame_count = 90,
                 blend_mode = "normal",
                 animation_speed = 1,
                 scale = 0.2,

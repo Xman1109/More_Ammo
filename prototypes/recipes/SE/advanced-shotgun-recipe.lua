@@ -13,11 +13,11 @@ data:extend(
       order = "a",
       ingredients =
       {
-        { "copper-plate", 2 },
-        { "plastic-bar", 5 },
-        { "steel-plate", 3 }
+        {type="item", name="copper-plate", amount=2},
+        {type="item", name="plastic-bar", amount=5},
+        {type="item", name="steel-plate", amount=3}
       },
       energy_required = 2,
-      result = "advanced-shotgun-shell"
+      results = {{type = "item", name = "advanced-shotgun-shell", amount = 1}},
     }
   })

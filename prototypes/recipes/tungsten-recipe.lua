@@ -21,13 +21,13 @@ data:extend(
       order = "ad",
       ingredients =
       {
-        { "empty-magazine", 1 },
-        { "iron-plate", 3 },
-        { "steel-plate", 7 },
-        { "copper-plate", 3 },
+        {type="item", name="empty-magazine", amount=1},
+        {type="item", name="iron-plate", amount=3},
+        {type="item", name="steel-plate", amount=7},
+        {type="item", name="copper-plate", amount=3},
       },
       energy_required = 4,
-      result = "tungsten-rounds-magazine",
+      results = {{type = "item", name = "tungsten-rounds-magazine", amount = 1}},
       hidden = hide_setting,
     }
   })

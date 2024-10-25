@@ -31,7 +31,7 @@ data:extend(
                 { "plastic-bar", math.ceil(5 + 5 * settings.startup["advanced-magazine-high-capacity"].value / 4 * 3) },
             },
             energy_required = data.raw["recipe"]["advanced-recipe"].energy_required,
-            result = "advanced-high-capacity-magazine"
+            results = {{type = "item", name = "advanced-high-capacity-magazine", amount = 1}},
         }
     }
 )

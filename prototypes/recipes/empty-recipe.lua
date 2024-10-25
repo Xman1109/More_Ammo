@@ -13,10 +13,10 @@ data:extend(
       order = "a",
       ingredients =
       {
-        { "iron-plate", 2 },
+        {type="item", name="iron-plate", amount=2},
       },
       energy_required = 0.5,
-      result = "empty-magazine"
+      results = {{type = "item", name = "empty-magazine", amount = 1}},
     }
   }
 )

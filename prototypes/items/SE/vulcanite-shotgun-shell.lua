@@ -6,6 +6,7 @@ data:extend(
       icon = SE_graphics .. "vulcanite-shotgun-shell.png",
       icon_mipmaps = 4,
       icon_size = 64,
+      ammo_category = "shotgun-shell",
       ammo_type =
       {
         category = "shotgun-shell",

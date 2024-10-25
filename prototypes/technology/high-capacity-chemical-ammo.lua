@@ -4,7 +4,7 @@ data:extend({
         type = "technology",
         name = "high-capacity-chemical-ammo",
         icon = "__More_Ammo__/graphics/icons/technology/high-capacity-chemical-ammo.png",
-        icon_size = "256",
+        icon_size = 256,
         icon_mipmaps = 4,
         prerequisites = { "chemical-ammo" },
         effects =

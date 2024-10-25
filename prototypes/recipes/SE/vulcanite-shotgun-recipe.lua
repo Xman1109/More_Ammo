@@ -13,10 +13,10 @@ data:extend(
       order = "c-b",
       ingredients =
       {
-        { "advanced-shotgun-shell", 1 },
-        { "se-vulcanite-ion-exchange-beads", 5 }
+        {type="item", name="advanced-shotgun-shell", amount=1},
+        {type="item", name="se-vulcanite-ion-exchange-beads", amount=5}
       },
       energy_required = 12,
-      result = "vulcanite-shotgun-shell"
+      results = {{type = "item", name = "vulcanite-shotgun-shell", amount = 1}},
     }
   })

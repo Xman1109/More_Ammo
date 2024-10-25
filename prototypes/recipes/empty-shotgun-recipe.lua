@@ -13,9 +13,9 @@ data:extend(
       order = "a",
       ingredients =
       {
-        { "copper-plate", 2 }
+        {type="item", name="copper-plate", amount=2}
       },
       energy_required = 0.5,
-      result = "empty-shotgun-shell"
+      results = {{type = "item", name = "empty-shotgun-shell", amount = 1}},
     }
   })

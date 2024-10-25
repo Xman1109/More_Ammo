@@ -6,6 +6,7 @@ data:extend(
       icon = SE_graphics .. "beryllium-rounds-magazine.png",
       icon_mipmaps = 4,
       icon_size = 64,
+      ammo_category = "bullet",
       ammo_type =
       {
         category = "bullet",

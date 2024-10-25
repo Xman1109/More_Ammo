@@ -9,10 +9,10 @@ data:extend(
       energy_required = 3,
       ingredients =
       {
-        { "empty-magazine", 1 },
-        { "iron-plate", 2 }
+        {type="item", name="empty-magazine", amount=1},
+        {type="item", name="iron-plate", amount=2}
       },
-      result = "firearm-magazine"
+      results = {{type = "item", name = "firearm-magazine", amount = 1}},
     },
     {
       type = "recipe",
@@ -22,11 +22,11 @@ data:extend(
       energy_required = 3,
       ingredients =
       {
-        { "empty-magazine", 1 },
-        { "steel-plate", 1 },
-        { "copper-plate", 5 }
+        {type="item", name="empty-magazine", amount=1},
+        {type="item", name="steel-plate", amount=1},
+        {type="item", name="copper-plate", amount=5}
       },
-      result = "piercing-rounds-magazine"
+      results = {{type = "item", name = "piercing-rounds-magazine", amount = 1}},
     },
     {
       type = "recipe",
@@ -36,10 +36,10 @@ data:extend(
       energy_required = 3,
       ingredients =
       {
-        { "empty-shotgun-shell", 1 },
-        { "iron-plate", 2 }
+        {type="item", name="empty-shotgun-shell", amount=1},
+        {type="item", name="iron-plate", amount=2}
       },
-      result = "shotgun-shell"
+      results = {{type = "item", name = "shotgun-shell", amount = 1}},
     },
     {
       type = "recipe",
@@ -49,11 +49,11 @@ data:extend(
       energy_required = 8,
       ingredients =
       {
-        { "empty-shotgun-shell", 1 },
-        { "copper-plate", 5 },
-        { "steel-plate", 2 }
+        {type="item", name="empty-shotgun-shell", amount=1},
+        {type="item", name="copper-plate", amount=5},
+        {type="item", name="steel-plate", amount=2}
       },
-      result = "piercing-shotgun-shell"
+      results = {{type = "item", name = "piercing-shotgun-shell", amount = 1}},
     }
   })
 

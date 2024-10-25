@@ -11,7 +11,7 @@ data:extend({
             type = "technology",
             name = "chemical-ammo",
             icon = "__More_Ammo__/graphics/icons/technology/chemical-ammo.png",
-            icon_size = "256",
+            icon_size = 256,
             icon_mipmaps = 4,
             prerequisites = { "unlock-ammo", "rocketry", "military-4" },
             effects =

@@ -21,13 +21,13 @@ data:extend(--this is inspired from Krastorio 2
       order = "ai",
       ingredients =
       {
-        { "empty-magazine", 1 },
-        { "iron-plate", 5 },
-        { "steel-plate", 4 },
-        { "explosives", 1 },
+        {type="item", name="empty-magazine", amount=1},
+        {type="item", name="iron-plate", amount=5},
+        {type="item", name="steel-plate", amount=4},
+        {type="item", name="explosives", amount=1},
       },
       energy_required = 6,
-      result = "he-rounds-magazine",
+      results = {{type = "item", name = "he-rounds-magazine", amount = 1}},
       hidden = hide_setting,
     }
   })

@@ -4,7 +4,7 @@ data:extend({
         type = "technology",
         name = "high-capacity-shotgun-shells",
         icon = "__More_Ammo__/graphics/icons/technology/high-capacity-shotgun-shells.png",
-        icon_size = "256",
+        icon_size = 256,
         icon_mipmaps = 4,
         prerequisites = { "uranium-ammo" },
         effects =
