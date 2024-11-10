@@ -14,9 +14,21 @@ local icons = { "firearm-magazine", "piercing-rounds-magazine", "uranium-rounds-
 for _, item in pairs(items) do
     if data.raw["ammo"]["high-capacity-" .. icons[_]] ~= nil then
         local export = table.deepcopy(data.raw["recipe"][item])
+        local translated_String = "item-name." .. icons[_]
         export.name = "high-capacity-" .. item
         export.enabled = false
-        export.localised_name = data.raw["ammo"][icons[_]].localised_name
+        -- export.localised_name = { "", { "item-name.extended" }, " ", { translated_String } }
+        if translated_String:find("shell") then
+            export.localised_name = { "", { "item-name.extended_shell" }, " ", { translated_String } }
+        elseif translated_String:find("firearm") then
+            export.localised_name = { "item-name.high-capacity-firearm-magazine" }
+        elseif translated_String:find("piercing") then
+            export.localised_name = { "item-name.high-capacity-piercing-rounds-magazine" }
+        elseif translated_String:find("uranium") then
+            export.localised_name = { "item-name.high-capacity-uranium-rounds-magazine" }
+        else
+            export.localised_name = { "", { "item-name.extended" }, " ", { translated_String } }
+        end
         export.icons = data.raw["ammo"]["high-capacity-" .. icons[_]].icons
         if data.raw["recipe"][item].order ~= nil then
             export.order = export.order .. "-b"
@@ -24,15 +36,15 @@ for _, item in pairs(items) do
             log(serpent.block(data.raw["recipe"][item]))
         end
         for b, ingredient in pairs(export.ingredients) do
-            if ingredient[1] == "empty-magazine" then
-                ingredient[1] = "empty-high-capacity-magazine"
-            elseif ingredient[1] == "advanced-magazine" then
-                ingredient[1] = "advanced-high-capacity-magazine"
-            elseif ingredient[1] == "empty-shotgun-shell" then
-                ingredient[1] = "empty-high-capacity-shotgun-shell"
+            if ingredient.name == "empty-magazine" then
+                ingredient.name = "empty-high-capacity-magazine"
+            elseif ingredient.name == "advanced-magazine" then
+                ingredient.name = "advanced-high-capacity-magazine"
+            elseif ingredient.name == "empty-shotgun-shell" then
+                ingredient.name = "empty-high-capacity-shotgun-shell"
             else
                 if type(ingredient[2]) == "number" then
-                    export.ingredients[b] = { ingredient[1],
+                    export.ingredients[b] = { ingredient.name,
                         math.ceil(ingredient[2] * settings.startup[icons[_] .. "-high-capacity"].value / 4 * 3) }
                 else
                     export.ingredients[b] = { type = ingredient.type, name = ingredient.name,
