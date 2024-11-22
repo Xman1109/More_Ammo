@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.19
+Date: 2024-11-22
+  Changes:
+    - removed obsolete logging code (#9)
+    - fixed a bug where the high capacity items would cause the game to crash (#10)
+    - updated the locales (thanks to all crowdin contributors)
+---------------------------------------------------------------------------------------------------
 Version: 1.5.18
 Date: 2024-11-10
   Changes:

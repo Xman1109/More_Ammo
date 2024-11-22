@@ -26,11 +26,11 @@ for _, item in pairs(items_dam) do
     log(settings.startup[item .. "-damage"].value)
     log(serpent.block(data.raw.ammo[item]))
     -- log(serpent.block(data.raw.ammo[item].ammo_type))
-    if data.raw.ammo[item] then
-        if data.raw.ammo[item].ammo_type.action.action_delivery.target_effects[1].damage then
+    if data.raw.ammo[item] ~= nil then
+        if data.raw.ammo[item].ammo_type.action.action_delivery.target_effects[1].damage ~= nil then
             data.raw.ammo[item].ammo_type.action.action_delivery.target_effects[1].damage.amount = settings.startup
             [item .. "-damage"].value
-        elseif data.raw.ammo[item].ammo_type.action.action_delivery.target_effects[2].damage then
+        elseif data.raw.ammo[item].ammo_type.action.action_delivery.target_effects[2].damage ~= nil then
             data.raw.ammo[item].ammo_type.action.action_delivery.target_effects[2].damage.amount = settings.startup
             [item .. "-damage"].value
         else
