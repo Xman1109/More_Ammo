@@ -17,6 +17,7 @@ data:extend(--its useless...
           action_delivery =
           {
             type = "instant",
+            source_effects = data.raw.ammo["piercing-rounds-magazine"].ammo_type.action.action_delivery.source_effects,
             target_effects =
             {
               {
