@@ -26,9 +26,9 @@ data:extend(
             order = "b-b",
             ingredients =
             {
-                { "iron-plate", math.ceil(5 + 5 * settings.startup["advanced-magazine-high-capacity"].value / 4 * 3) },
-                { "steel-plate", math.ceil(3 + 3 * settings.startup["advanced-magazine-high-capacity"].value / 4 * 3) },
-                { "plastic-bar", math.ceil(5 + 5 * settings.startup["advanced-magazine-high-capacity"].value / 4 * 3) },
+                { type = "item", name = "iron-plate", amount = math.ceil(5 + 5 * settings.startup["advanced-magazine-high-capacity"].value / 4 * 3) },
+                { type = "item", name = "steel-plate", amount = math.ceil(3 + 3 * settings.startup["advanced-magazine-high-capacity"].value / 4 * 3) },
+                { type = "item", name = "plastic-bar", amount = math.ceil(5 + 5 * settings.startup["advanced-magazine-high-capacity"].value / 4 * 3) },
             },
             energy_required = data.raw["recipe"]["advanced-recipe"].energy_required,
             results = {{type = "item", name = "advanced-high-capacity-magazine", amount = 1}},

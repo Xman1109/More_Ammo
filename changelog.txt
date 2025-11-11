@@ -1,8 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.21
+Date: 2025-11-11
+  Changes:
+    - Fixed a startup crash when played with Space Exploration (thanks to @netz on discord for reporting)
+---------------------------------------------------------------------------------------------------
 Version: 1.5.20
 Date: 2024-12-01
   Changes:
-    -  Added Compatibility for Distant Misfires (https://mods.factorio.com/mod/distant-misfires)
+    - Added Compatibility for Distant Misfires (https://mods.factorio.com/mod/distant-misfires)
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.19
 Date: 2024-11-22

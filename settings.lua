@@ -8,11 +8,11 @@ data:extend(
             order = "a"
         },
         {
-        type = "bool-setting",
-        name = "advanced-magazines",
-        setting_type = "startup",
-        default_value = true,
-        order = "b"
+            type = "bool-setting",
+            name = "advanced-magazines",
+            setting_type = "startup",
+            default_value = true,
+            order = "b"
         },
         {
             type = "bool-setting",

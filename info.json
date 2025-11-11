@@ -1,10 +1,10 @@
 {
   "name": "More_Ammo",
-  "version": "1.5.20",
+  "version": "1.5.21",
   "title": "More Ammo",
   "description": "Adds more Ammo types and their crafting recipes for your weapons! \n Now with special Ammo for the materials from Space Exploration!",
   "author": "X_Man1109",
-  "contact": "X_Man1109#6160",
+  "contact": "x_man1109",
   "factorio_version": "2.0",
   "dependencies": ["base", "? bullet-trails", "? space-exploration", "(?) StarsWithSakura"]
 }
