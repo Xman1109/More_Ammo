@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.22
+Date: 2026-02-17
+  Changes:
+    - Fixed a startup error "action_delivery" (thanks masin10)
+    - All Ammo types are now able to be recycled (thanks Mark.Drees)
+    - Fixed a bug where Vanilla Ammo could not be configured through the Mod Settings (thanks Disk117)
+---------------------------------------------------------------------------------------------------
 Version: 1.5.21
 Date: 2025-11-11
   Changes:
