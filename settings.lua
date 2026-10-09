@@ -27,6 +27,13 @@ data:extend(
             setting_type = "startup",
             default_value = true,
             order = "d"
+        },
+        {
+            type = "bool-setting",
+            name = "more-ammo-require-empty-magazines",
+            setting_type = "startup",
+            default_value = true,
+            order = "e"
         }
     }
 )

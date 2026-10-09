@@ -14,7 +14,9 @@ local stickers = "prototypes.stickers."
 require(stickers .. "fire-ammo-sticker")
 
 -- vanilla changes
-require(vanilla_changes .. "ammo-recipes")
+if settings.startup["more-ammo-require-empty-magazines"].value then
+    require(vanilla_changes .. "ammo-recipes")
+end
 require(vanilla_changes .. "technology")
 
 -- technologys
@@ -86,4 +88,9 @@ if mods["space-exploration"] then
 
     -- ???
     require(vanilla_changes .. "mental-damage")
+end
+
+-- Resolve ammunition chains before extended recipes and Quality recycling are generated.
+if not settings.startup["more-ammo-require-empty-magazines"].value then
+    require(recipes .. "without-empty-magazines")
 end

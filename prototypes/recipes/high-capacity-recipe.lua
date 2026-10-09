@@ -53,7 +53,13 @@ for _, item in pairs(items) do
                 end
             end
         end
-        export.results = {{type = "item", name = "high-capacity-" .. icons[_], amount = 1}},
+        -- Keep the source batch size, including vanilla piercing ammunition's two outputs.
+        local ammo_name = icons[_]
+        for _, result in ipairs(export.results) do
+            if result.name == ammo_name then
+                result.name = "high-capacity-" .. ammo_name
+            end
+        end
         log(serpent.block(export))
         data:extend({ export })
     else

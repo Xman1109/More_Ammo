@@ -67,7 +67,7 @@ local function get_recipe_ingredients(recipe)
     return nil
 end
 
-local function build_recycling_results(ingredients, ratio)
+local function build_recycling_results(ingredients, ratio, output_count)
     local results = {}
     for _, ingredient in pairs(ingredients or {}) do
         local ingredient_type = ingredient.type or "item"
@@ -75,9 +75,13 @@ local function build_recycling_results(ingredients, ratio)
             local name = ingredient.name or ingredient[1]
             local amount = ingredient.amount or ingredient[2]
             if amount then
-                local result_amount = math.floor((amount * ratio) + 1e-9)
+                local result_amount = math.floor((amount * ratio) + 1e-9) / output_count
                 if result_amount > 0 then
-                    table.insert(results, { type = "item", name = name, amount = result_amount })
+                    local result = { type = "item", name = name, amount = math.floor(result_amount) }
+                    if result_amount % 1 > 0 then
+                        result.extra_count_fraction = result_amount % 1
+                    end
+                    table.insert(results, result)
                 end
             else
                 log("Recycling skipped ingredient with variable amount: " .. name)
@@ -132,7 +136,15 @@ local function add_recycling_recipe(item_name, recipe)
         return
     end
 
-    local results = build_recycling_results(ingredients, 0.5)
+    local output_count = recipe.result_count or 1
+    for _, product in pairs(recipe.results or {}) do
+        if (product.name or product[1]) == item_name then
+            output_count = product.amount or product[2] or 1
+            break
+        end
+    end
+    -- Recycling consumes one item, even when its crafting recipe produces a batch.
+    local results = build_recycling_results(ingredients, 0.5, output_count)
     if #results == 0 then
         log("Recycling skipped, no results for " .. item_name)
         return
