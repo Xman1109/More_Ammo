@@ -20,7 +20,7 @@ data:extend(
             icon_mipmaps = 4,
             icon_size = 64,
             enabled = false,
-            category = "crafting",
+            categories = {"crafting"},
             group = "intermediate-products",
             subgroup = "intermediate-product",
             order = "b-b",

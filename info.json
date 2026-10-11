@@ -5,6 +5,6 @@
   "description": "Adds more Ammo types and their crafting recipes for your weapons! \n Now with special Ammo for the materials from Space Exploration!",
   "author": "X_Man1109",
   "contact": "x_man1109",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": ["base", "? bullet-trails", "? space-exploration", "(?) StarsWithSakura"]
 }
