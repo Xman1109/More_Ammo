@@ -15,7 +15,7 @@ data:extend(
       icon_mipmaps = 4,
       icon_size = 64,
       enabled = false,
-      category = "crafting-with-fluid",
+      categories = {"crafting-with-fluid"},
       group = "combat",
       subgroup = "ammo",
       order = "ag",

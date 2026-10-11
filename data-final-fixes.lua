@@ -161,7 +161,7 @@ local function add_recycling_recipe(item_name, recipe)
     local recycling_recipe = {
         type = "recipe",
         name = item_name .. "-recycling",
-        category = "recycling",
+        categories = {"recycling"},
         enabled = true,
         hidden = true,
         energy_required = 1,

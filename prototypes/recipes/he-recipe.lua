@@ -15,7 +15,7 @@ data:extend(--this is inspired from Krastorio 2
       icon_mipmaps = 4,
       icon_size = 64,
       enabled = false,
-      category = "advanced-crafting",
+      categories = {"advanced-crafting"},
       group = "combat",
       subgroup = "ammo",
       order = "ai",

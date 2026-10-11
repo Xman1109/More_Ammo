@@ -7,7 +7,7 @@ data:extend(
       icon_mipmaps = 4,
       icon_size = 64,
       enabled = false,
-      category = "space-manufacturing",
+      categories = {"space-manufacturing"},
       group = "combat",
       subgroup = "ammo",
       order = "an",
